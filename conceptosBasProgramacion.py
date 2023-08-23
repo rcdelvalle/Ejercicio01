@@ -25,3 +25,15 @@ elif opcion==3:
     resultado = num1 * num2
 
 print(f"El resultado es {resultado}")
+
+
+#Ejercicio 3.
+email = input("Ingrese un email ")
+mensaje = "No es un email"
+
+for caracter in email:
+    if (caracter == "@"):
+        mensaje = "Si es un email"
+        break
+
+print(mensaje)
