@@ -37,3 +37,13 @@ for caracter in email:
         break
 
 print(mensaje)
+
+
+#Ejercicio 4.
+lista = ["banano", "sandía", "cereza", "higo", "melón", "manzana"]
+cont = 0
+
+for item in lista:
+    cont += 1
+
+print(f"la cantidad de elementos de la lista es {cont}")
