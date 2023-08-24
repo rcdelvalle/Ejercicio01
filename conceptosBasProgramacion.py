@@ -47,3 +47,13 @@ for item in lista:
     cont += 1
 
 print(f"la cantidad de elementos de la lista es {cont}")
+
+
+#Ejercicio 5.
+listanum = [2, 3, 5, 7, 11, 13, 17, 19]
+suma = 0
+
+for num in listanum:
+    suma = suma + num
+
+print(f"El total de la suma es {suma}")
