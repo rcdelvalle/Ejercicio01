@@ -57,3 +57,18 @@ for num in listanum:
     suma = suma + num
 
 print(f"El total de la suma es {suma}")
+
+
+#Ejercicio 6.
+listanum2 = [3, 5, 7]
+suma = 0
+cont = 0
+
+for num in listanum2:
+    suma = suma + num
+    cont += 1
+
+if cont > 0:
+    prom = suma/cont
+
+print(f"El valor promedio de la lista es {prom}")
