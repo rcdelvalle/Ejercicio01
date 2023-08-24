@@ -83,3 +83,15 @@ for num in listanum3:
         numeroMaximo = num
 
 print(f"El valor máximo de la lista es {numeroMaximo}")
+
+
+#Ejercicio 8.
+listanum4 = [1, 3, -5, 7, -11, 15]
+numeroMinimo = listanum4[1]
+
+for num in listanum4:
+    if num <= numeroMinimo:
+        numeroMinimo = num
+
+print(f"El valor mínimo de la lista es {numeroMinimo}")
+
