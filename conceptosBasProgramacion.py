@@ -72,3 +72,14 @@ if cont > 0:
     prom = suma/cont
 
 print(f"El valor promedio de la lista es {prom}")
+
+
+#Ejercicio 7.
+listanum3 = [3, 5, 13, 11, 73, 59, 37]
+numeroMaximo = listanum3[1]
+
+for num in listanum3:
+    if num >= numeroMaximo:
+        numeroMaximo = num
+
+print(f"El valor máximo de la lista es {numeroMaximo}")
